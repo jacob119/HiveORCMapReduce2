@@ -1,4 +1,4 @@
-package org.jacob.hivemr;
+package org.jacob.hivemr.mapreduce;
 
 
 import java.io.BufferedReader;

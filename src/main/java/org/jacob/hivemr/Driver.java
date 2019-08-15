@@ -1,6 +1,5 @@
 package org.jacob.hivemr;
 
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -11,6 +10,8 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+import org.jacob.hivemr.mapreduce.IntSumReducer;
+import org.jacob.hivemr.mapreduce.TokenizerMapper;
 import org.jacob.hivemr.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
